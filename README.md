@@ -38,4 +38,5 @@ type "pip install bulkimporttools"
 
 ## Developement
 Github repository is located here: https://github.com/Mikael-MStinson/Bulk-Import
+
 Pypi project is located here: https://pypi.org/project/bulkimporttools/
