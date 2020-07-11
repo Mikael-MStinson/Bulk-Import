@@ -34,4 +34,7 @@ subclasses = import_subclasses(				#
 ```
 
 ## Installing
-With git installed, type "pip install git+https://github.com/Mikael-MStinson/Bulk-Import"
+With git installed, type "pip install bulkimporttools"
+
+## Developement
+Github repository is located here: https://github.com/Mikael-MStinson/Bulk-Import

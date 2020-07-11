@@ -4,8 +4,8 @@ with open("README.md","r") as fh:
 	long_description = fh.read()
 
 setup(
-	name = 'bulk_import',
-	version = '0.0.1',
+	name = 'bulkimporttools',
+	version = '0.0.2',
 	description = 'A collection of tools for importing classes and modules in bulk',
 	py_modules = ["bulk_import"],
 	package_dir = {'':'src'},
@@ -20,7 +20,6 @@ setup(
 	],
 	url = "https://github.com/Mikael-MStinson/Bulk-Import",
 	author = "Mikael Morrell-Stinson",
-	author_email = "mikael.morrellstinson@gmail.com",
 	long_description = long_description,
 	long_description_content_type = "text/markdown",
 )
