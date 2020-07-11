@@ -17,4 +17,5 @@ setup(
 	],
 	url = "https://github.com/Mikael-MStinson/Bulk-Import",
 	author = "Mikael Morrell-Stinson",
+	author_email = "mikael.morrellstinson@gmail.com",
 )
