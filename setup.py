@@ -5,7 +5,7 @@ with open("README.md","r") as fh:
 
 setup(
 	name = 'bulkimporttools',
-	version = '0.0.3',
+	version = '0.0.4',
 	description = 'A collection of tools for importing classes and modules in bulk',
 	py_modules = ["bulk_import"],
 	package_dir = {'':'src'},
