@@ -1,5 +1,8 @@
 from setuptools import setup
 
+with open("README.md","r") as fh:
+	long_description = fh.read()
+
 setup(
 	name = 'bulk_import',
 	version = '0.0.1',
@@ -18,4 +21,6 @@ setup(
 	url = "https://github.com/Mikael-MStinson/Bulk-Import",
 	author = "Mikael Morrell-Stinson",
 	author_email = "mikael.morrellstinson@gmail.com",
+	long_description = long_description,
+	long_description_content_type = "text/markdown",
 )
