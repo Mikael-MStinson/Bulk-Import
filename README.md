@@ -11,9 +11,9 @@ and then tell your python program to import all classes of type Command from the
 
 The file structure would look something like this:
 * project
-	* command.py                this would contain the base class Command
-	* commands                   all command classes would be stored in here
-		* command_a.py     these would inherit the base class Command
+	* command.py - this would contain the base class Command
+	* commands - all command classes would be stored in here
+		* command_a.py - these would inherit the base class Command
 		* command_b.py
 		* command_c.py
 	
@@ -34,7 +34,8 @@ subclasses = import_subclasses(				#
 ```
 
 ## Installing
-With git installed, type "pip install bulkimporttools"
+type "pip install bulkimporttools"
 
 ## Developement
 Github repository is located here: https://github.com/Mikael-MStinson/Bulk-Import
+Pypi project is located here: https://pypi.org/project/bulkimporttools/
